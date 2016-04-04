@@ -29,6 +29,7 @@ public class ApplyQAJob {
 	    driver.findElement(By.id("tabNavCommercial")).click();
 	    driver.findElement(By.linkText("Commercial Electronic Office")).click();
 	    driver.findElement(By.linkText("frequently asked questions")).click();
+	    System.out.println("my name");
 	  }
 
 	  @After
